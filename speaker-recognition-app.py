@@ -24,8 +24,8 @@ def get_data(filename):
     data=pd.read_csv(filename,index_col=False,skiprows=[1])
     #testdata=pd.read_csv(csvFileName,index_col=False)
     return data
-import pydub
-from pydub import AudioSegment
+#import pydub
+#from pydub import AudioSegment
 from pathlib import Path
 import librosa
 
