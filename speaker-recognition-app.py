@@ -1,5 +1,5 @@
 import streamlit as st
-import joblib
+#import joblib
 st.title("speaker classifier app")
 import streamlit as st
 import os
