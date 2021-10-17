@@ -87,12 +87,12 @@ import csv
 #warnings.filterwarnings('ignore')
 
 import IPython
-#from scipy.io.wavfile import read,write
-#import noisereduce as nr
+from scipy.io.wavfile import read,write
+import noisereduce as nr
 from IPython.display import Audio
 header = 'filename chroma_stft rmse spectral_centroid spectral_bandwidth rolloff zero_crossing_rate'
 for i in range(1,5):
-    path ="C:\\Users\\renis\\audio"
+    path ="C:/Users/renis/audio"
     header += f' mfcc{i}'
 header += ' label'
 header = header.split()
@@ -102,7 +102,7 @@ with file:
     writer = csv.writer(file)
     writer.writerow(header)
     path="C:/Users/renis/audio"
-audio = ' neetha  '.split()
+audio = 'neetha'.split()
 t=audio[0]
 for t in audio:
     #t=t+t[1]
@@ -235,15 +235,15 @@ def extractwavFeatures(soundFilesFolder,csvFileName):
 #with file:
     writer = csv.writer(file)
     writer.writerow(header)
-    #path="C:\\Users\\renis\\audio"
+    #path="C:/Users/renis/audio"
     testv= 'neethaL uday1'.split()
     #trainv='five four hello tabala three two'.split()
-    #soundFilesFolder= "C:\\Users\\renis\\soundtest" 
+    #soundFilesFolder= "C:/Users/renis/soundtest" 
      #for t in audiotest:
     #t=t+t[1]
     for filename in os.listdir(soundFilesFolder):
         #t=t+t[1]
-            name = f'{soundFilesFolder}\\{filename}'
+            name = f'{soundFilesFolder}/{filename}'
             #sname =f' {name}'
             y, sr = librosa.load(name, mono=True, duration=3)
             rmse = librosa.feature.rms(y=y)[0]
