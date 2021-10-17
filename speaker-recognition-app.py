@@ -87,8 +87,8 @@ import csv
 #warnings.filterwarnings('ignore')
 
 import IPython
-import scipy
-from scipy.io.wavfile import read,write
+#import scipy
+#from scipy.io.wavfile import read,write
 import noisereduce as nr
 from IPython.display import Audio
 header = 'filename chroma_stft rmse spectral_centroid spectral_bandwidth rolloff zero_crossing_rate'
