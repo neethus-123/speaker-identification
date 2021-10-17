@@ -87,6 +87,7 @@ import csv
 #warnings.filterwarnings('ignore')
 
 import IPython
+import scipy
 from scipy.io.wavfile import read,write
 import noisereduce as nr
 from IPython.display import Audio
