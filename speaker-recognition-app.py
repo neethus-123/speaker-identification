@@ -32,9 +32,9 @@ from pathlib import Path
 with header:
     
     
-    #datapath1 = "C:\\Users\\renis\\audio\\neetha\\"
-    datapath1=  "C:\\Users\\renis\\soundtest\\testv\\"
-    datapath2= "C:\\Users\\renis\\soundtest\\testv\\"
+    #datapath1 = "C:/Users/renis/audio/neetha/"
+    datapath1=  "C:/Users/renis/soundtest/testv/"
+    datapath2= "C:/Users/renis/soundtest/testv/"
 #def identify():
     
     st.set_option('deprecation.showfileUploaderEncoding', False)
@@ -101,14 +101,14 @@ file = open('dataset.csv', 'w', newline='')
 with file:
     writer = csv.writer(file)
     writer.writerow(header)
-    path="C:\\Users\\renis\\audio"
+    path="C:/Users/renis/audio"
 audio = ' neetha  '.split()
 t=audio[0]
 for t in audio:
     #t=t+t[1]
-    for filename in os.listdir(path+'\\'+t):
+    for filename in os.listdir(path+'/'+t):
         #t=t+t[1]
-        name =  path+'\\'+t+'\\'+filename
+        name =  path+'/'+t+'/'+filename
         sname =f' {name}'
         y, sr = librosa.load(name, mono=True, duration=1)
         [rate, data] = sr,y
@@ -262,7 +262,7 @@ def extractwavFeatures(soundFilesFolder,csvFileName):
     print("end of extractwavfeatures")
     st.subheader("end of extractwavfeatures")
 if(CREATE_CSV_FILES==True):
-    extractwavFeatures("C:\\Users\\renis\\soundtest\\testv\\",TEST_CSV_FILE)
+    extractwavFeatures("C:/Users/renis/soundtest/testv/",TEST_CSV_FILE)
 import pandas as pd
 import csv
 from sklearn import preprocessing
