@@ -1,0 +1,15 @@
+matplotlib==3.3.4
+pandas==1.2.2
+streamlit==1.0.0
+scipy==1.6.0
+pydub==0.24.1
+noisereduce==1.1.0
+keras==2.6.0
+numpy==1.19.5
+tensorflow==2.6.0
+ipython==7.28.0
+joblib==1.1.0
+librosa==0.8.1
+Pillow==8.4.0
+protobuf==3.18.1
+scikit_learn==1.0
