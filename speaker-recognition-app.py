@@ -102,13 +102,13 @@ with file:
     writer = csv.writer(file)
     writer.writerow(header)
     path=os.path.dirname(__file__)
-    my_file = path+'neethaL.wav'
+    audio = path+'neethaL.wav'
 
 audio = ' neetha  '.split()
 #t=audio[0]
 for t in audio:
     #t=t+t[1]
-    for filename in os.listdir(path+'\\'+t):
+    for filename in os.listdir(path+'\\'+audio):
         #t=t+t[1]
         name =  path+'\\'+t+'\\'+filename
         sname =f' {name}'
