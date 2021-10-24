@@ -104,7 +104,7 @@ with file:
     path=os.path.dirname(__file__)
    #my_file = path+'audio'
 
-my_file = ' neetha  '.split()
+my_file = path+' neetha  '.split()
 #t=audio[0]
 for t in my_file:
     #t=t+t[1]
