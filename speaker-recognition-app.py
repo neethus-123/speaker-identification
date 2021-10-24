@@ -33,8 +33,8 @@ with header:
     
     
     #datapath1 = "C:\\Users\\renis\\audio\\neetha\\"
-    datapath1=  "https://github.com/neethus-123/speaker-identification/tree/main/soundtest/testv"
-    datapath2= "https://github.com/neethus-123/speaker-identification/tree/main/soundtest/testv"
+    datapath1=  "neethus-123/speaker-identification/tree/main/soundtest/testv"
+    datapath2= "neethus-123/speaker-identification/tree/main/soundtest/testv"
 #def identify():
     
     st.set_option('deprecation.showfileUploaderEncoding', False)
@@ -101,7 +101,7 @@ file = open('dataset.csv', 'w', newline='')
 with file:
     writer = csv.writer(file)
     writer.writerow(header)
-    path="https://github.com/neethus-123/speaker-identification/tree/main/audio"
+    path="neethus-123\\speaker-identification\\tree\\main\\audio"
 audio = ' neetha  '.split()
 t=audio[0]
 for t in audio:
