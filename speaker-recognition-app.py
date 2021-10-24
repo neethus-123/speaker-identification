@@ -33,8 +33,8 @@ with header:
     
     
     #datapath1 = "C:\\Users\\renis\\audio\\neetha\\"
-    datapath1=  "C:\\Users\\renis\\soundtest\\testv"
-    datapath2= "C:\\Users\\renis\\soundtest\\testv"
+    datapath1=  "https://github.com/neethus-123/speaker-identification/tree/main/soundtest/testv"
+    datapath2= "https://github.com/neethus-123/speaker-identification/tree/main/soundtest/testv"
 #def identify():
     
     st.set_option('deprecation.showfileUploaderEncoding', False)
@@ -262,7 +262,7 @@ def extractwavFeatures(soundFilesFolder,csvFileName):
     print("end of extractwavfeatures")
     st.subheader("end of extractwavfeatures")
 if(CREATE_CSV_FILES==True):
-    extractwavFeatures("C:\\Users\\renis\\soundtest\\testv\\",TEST_CSV_FILE)
+    extractwavFeatures("https://github.com/neethus-123/speaker-identification/tree/main/soundtest/testv",TEST_CSV_FILE)
 import pandas as pd
 import csv
 from sklearn import preprocessing
