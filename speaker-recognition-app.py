@@ -105,7 +105,7 @@ with file:
     my_file = path+'neethaL.wav'
 
 audio = ' neetha  '.split()
-t=neetha[0]
+#t=audio[0]
 for t in audio:
     #t=t+t[1]
     for filename in os.listdir(path+'\\'+t):
