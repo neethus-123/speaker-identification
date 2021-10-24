@@ -101,12 +101,12 @@ file = open('dataset.csv', 'w', newline='')
 with file:
     writer = csv.writer(file)
     writer.writerow(header)
-    path=os.path.dirname(__audio__)
-    #audio = path+'neethaL.wav'
+    path=os.path.dirname(__file__)
+   #my_file = path+'audio'
 
-audio = ' neetha  '.split()
+my_file = ' neetha  '.split()
 #t=audio[0]
-for t in audio:
+for t in my_file:
     #t=t+t[1]
     for filename in os.listdir(path+'\\'+t):
         #t=t+t[1]
