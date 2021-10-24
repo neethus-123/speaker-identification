@@ -108,7 +108,7 @@ audio_file = path+'/audio'
 #t=audio_file[0]
 for t in audio_file:
     #t=t+t[1]
-    for filename in os.listdir(path+'\\'+t):
+    for filename in os.listdir(audio_file):
         #t=t+t[1]
         name =  path+'\\'+t+'\\'+filename
         sname =f' {name}'
