@@ -103,7 +103,7 @@ with file:
     writer.writerow(header)
     path=os.path.dirname(__file__)
    #my_file = path+'audio'
-'audio'=' neetha '.split()
+   'audio'=' neetha '.split()
 audio_file = path+'\\'+'audio'
 
 #t=audio_file[0]
