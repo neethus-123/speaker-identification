@@ -102,6 +102,8 @@ with file:
     writer = csv.writer(file)
     writer.writerow(header)
     path=os.path.dirname(__file__)
+    my_file = path+'audio'
+
 audio = ' neetha  '.split()
 t=audio[0]
 for t in audio:
