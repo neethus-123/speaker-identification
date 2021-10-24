@@ -101,7 +101,7 @@ file = open('dataset.csv', 'w', newline='')
 with file:
     writer = csv.writer(file)
     writer.writerow(header)
-    path="https://github.com\\neethus-123\\speaker-identification\\tree\\main\\audio"
+    path=os.path.dirname(audio)
 audio = ' neetha  '.split()
 t=audio[0]
 for t in audio:
