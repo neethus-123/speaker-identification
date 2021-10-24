@@ -101,7 +101,7 @@ file = open('dataset.csv', 'w', newline='')
 with file:
     writer = csv.writer(file)
     writer.writerow(header)
-    path=os.path.dirname(__audio__)
+    path=os.path.dirname(__file__)
 audio = ' neetha  '.split()
 t=audio[0]
 for t in audio:
