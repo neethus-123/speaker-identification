@@ -104,14 +104,14 @@ with file:
     path=os.path.dirname(__file__)
    #my_file = path+'audio'
    
-audio_file = path+'\\'+'audio'
+audio_file = path+'/'+'audio'
 audio=' neetha '.split()
 #t=audio_file[0]
 for t in audio_file:
     #t=t+t[1]
     for filename in os.listdir(audio_file+'/'+'neetha'):
         #t=t+t[1]
-        name =  audio_file+'/'+'neetha'+'\\'+filename
+        name =  audio_file+'/'+'neetha'+'/'+filename
         sname =f' {name}'
         y, sr = librosa.load(name, mono=True, duration=1)
         [rate, data] = sr,y
