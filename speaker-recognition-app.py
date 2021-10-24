@@ -105,7 +105,7 @@ with file:
    #my_file = path+'audio'
    
 audio_file = path+'\\'+'audio'
-'audio'=' neetha '.split()
+audio=' neetha '.split()
 #t=audio_file[0]
 for t in audio_file:
     #t=t+t[1]
