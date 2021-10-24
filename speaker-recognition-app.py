@@ -102,7 +102,7 @@ with file:
     writer = csv.writer(file)
     writer.writerow(header)
     path=os.path.dirname(__audio__)
-    audio = path+'neethaL.wav'
+    #audio = path+'neethaL.wav'
 
 audio = ' neetha  '.split()
 #t=audio[0]
