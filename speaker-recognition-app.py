@@ -33,8 +33,8 @@ with header:
     
     
     #datapath1 = "C:\\Users\\renis\\audio\\neetha\\"
-    datapath1=  "C:/Users/renis/soundtest/testv/"
-    datapath2= "C:/Users/renis/soundtest/testv/"
+    datapath1=  "C:\\Users\\renis\\soundtest\\test"
+    datapath2= "C:\\Users\\renis\\soundtest\\test/"
 #def identify():
     
     st.set_option('deprecation.showfileUploaderEncoding', False)
