@@ -106,11 +106,11 @@ with file:
 
 audio_file = path+'/audio'
 #t=audio_file[0]
-#for t in audio_file:
+for t in audio_file:
     #t=t+t[1]
     for filename in os.listdir(path+'\\'+audio_file):
         #t=t+t[1]
-        name =  path+'\\'+audio_file+'/'+filename
+        name =  path+'\\'+audio_file+'\\'+filename
         sname =f' {name}'
         y, sr = librosa.load(name, mono=True, duration=1)
         [rate, data] = sr,y
