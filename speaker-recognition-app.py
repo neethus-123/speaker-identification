@@ -104,11 +104,11 @@ with file:
     path=os.path.dirname(__file__)
    #my_file = path+'audio'
 
-audio_file =path+" ' neetha  '.split()"
-t=audio_file[0]
+audio_file = ' neetha  '.split()
+#t=audio_file[0]
 for t in audio_file:
     #t=t+t[1]
-    for filename in os.listdir(path+'\\'+t):
+    for filename in os.listdir(path+'\\'+audio_file):
         #t=t+t[1]
         name =  path+'\\'+t+'\\'+filename
         sname =f' {name}'
