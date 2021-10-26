@@ -33,8 +33,8 @@ with header:
     
     
     #datapath1 = "C:\\Users\\renis\\audio\\neetha\\"
-    datapath1=  "neethus-123/speaker-identification/tree/main/soundtest/testv"
-    datapath2= "neethus-123/speaker-identification/tree/main/soundtest/testv"
+    datapath1=  "https://github.com/neethus-123/speaker-identification/tree/main/soundtest/testv"
+    datapath2= "https://github.com/neethus-123/speaker-identification/tree/main/soundtest/testv"
 #def identify():
     
     st.set_option('deprecation.showfileUploaderEncoding', False)
