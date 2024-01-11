@@ -37,7 +37,7 @@ with header:
     datapath2= "https://github.com/neethus-123/speaker-identification/tree/main/soundtest/testv"
 #def identify():
     
-    st.set_option('deprecation.showfileUploaderEncoding', False)
+    #st.set_option('deprecation.showfileUploaderEncoding', False)
     st.subheader("Choose a wav file that you extracted from the work site")
     uploaded_file1 = st.file_uploader("Select")
     
@@ -50,7 +50,7 @@ with header:
             sound.export(datapath1+uploaded_file1.name[:-4]+'.wav', format="wav")
             wav_file1 = datapath1+uploaded_file1.name[:-4]+'.wav'
             y, sr = librosa.load(wav_file1)
-    st.set_option('deprecation.showfileUploaderEncoding', False)        
+    #st.set_option('deprecation.showfileUploaderEncoding', False)        
     st.subheader("choose a wave file for test")        
     uploaded_file2 = st.file_uploader("Select file")
     if uploaded_file2 is not None:
